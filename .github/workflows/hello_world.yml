@@ -1,8 +1,9 @@
 name: Hello_world_workflow
 on:
   push:
-    branches: master
-  pull_request: master
+    branches: -master
+  pull_request:
+    branches: -master
 
   workflow_dispatch:
 
